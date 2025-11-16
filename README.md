@@ -20,7 +20,7 @@ A production-ready demo of Spring Security with **Basic Authentication**, **BCry
 | `john`   | `johnpass` | USER  | Only `/user/**`                     |
 
 ## Quick Start
-1. Install MySQL, create DB: `CREATE DATABASE mindprove_db;`
+1. Install MySQL, create DB: `CREATE DATABASE security_db;`
 2. Update `application.properties` with your MySQL creds.
 ```bash
 mvn spring-boot:run
@@ -28,7 +28,7 @@ mvn spring-boot:run
 ## Database Setup (MySQL)
 1. **Create DB**: Run in MySQL CLI or Workbench:
    ```sql
-   CREATE DATABASE mindprove_db;
+   CREATE DATABASE security_db;
 
 ## Test with cURL / Postman
 
@@ -46,7 +46,6 @@ curl -u admin:adminpass http://localhost:8085/admin/dashboard
 curl -u admin:adminpass http://localhost:8085/user/profile
 
 ## Endpoints
-Ye secure endpoints hain:
 
 | Method | URL                    | Allowed Roles       | Response Example                          |
 |--------|------------------------|---------------------|-------------------------------------------|
