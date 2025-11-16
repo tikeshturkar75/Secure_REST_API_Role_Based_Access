@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# MySQL / DB secrets
+application.properties
+application.yml
+application-*.properties
+
+# Logs & DB files
+*.log
+logs/
+*.sql  # MySQL dumps
