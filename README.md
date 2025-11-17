@@ -24,7 +24,7 @@ A production-ready demo of Spring Security with **Basic Authentication**, **BCry
 2. Update `application.properties` with your MySQL creds.
 ```bash
 mvn spring-boot:run
-
+```
 ## Database Setup (MySQL)
 1. **Create DB**: Run in MySQL CLI or Workbench:
    ```sql
@@ -44,7 +44,7 @@ curl -u admin:adminpass http://localhost:8085/admin/dashboard
 
 # ADMIN can also access user endpoints
 curl -u admin:adminpass http://localhost:8085/user/profile
-
+```
 ## Endpoints
 
 | Method | URL                    | Allowed Roles       | Response Example                          |
